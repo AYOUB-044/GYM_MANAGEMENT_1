@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="581fe88d4c9a44f6864b45358eb79897" Name="Diagram1">
+        <EntityTypeShape EntityType="GYM_MANAGEMEN_dbModel.employee" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GYM_MANAGEMEN_dbModel.equipment" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GYM_MANAGEMEN_dbModel.member" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GYM_MANAGEMEN_dbModel.staff" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GYM_MANAGEMEN_dbModel.sysdiagram" Width="1.5" PointX="5.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GYM_MANAGEMEN_dbModel.vendor" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="GYM_MANAGEMEN_dbModel.fk_emp_eq" ManuallyRouted="false" />
+        <AssociationConnector Association="GYM_MANAGEMEN_dbModel.fk_emp_staff" ManuallyRouted="false" />
+        <AssociationConnector Association="GYM_MANAGEMEN_dbModel.fk_v_eq" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
